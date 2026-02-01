@@ -6,19 +6,19 @@ dotenv.config();
 
 const deals = [
   {
-    title: "AWS Activate Credits",
+    title: "Stranger Things",
     description:
-      "Get up to $5,000 in AWS credits to build and scale your startup infrastructure.",
-    category: "Cloud",
-    partnerName: "Amazon Web Services",
+      "Millie Bobby Brown build and scale your startup infrastructure.",
+    category: "Web Series",
+    partnerName: "Steve Harringtone",
     eligibilityText: "Early-stage startups with a registered domain.",
     isLocked: true,
   },
   {
-    title: "Notion Startup Plan",
+    title: "Momos Startup Plan",
     description:
-      "Free Notion Pro plan for startups to manage docs, tasks, and knowledge base.",
-    category: "Productivity",
+      "Free Momos Pro plan for startups to manage costomers.",
+    category: "Foody",
     partnerName: "Rolex Surya",
     eligibilityText: "Startups with fewer than 50 employees.",
     isLocked: false,
@@ -41,6 +41,33 @@ const deals = [
     eligibilityText: "Available for all early-stage teams.",
     isLocked: false,
   },
+  {
+    title: "Animal Park",
+    description:
+      "Ranvir Kapur is the main character of movie who shadow by Lord Bobby",
+    category: "Bollywood Movie",
+    partnerName: "Steve Harringtone",
+    eligibilityText: "Early-stage startups with a registered domain.",
+    isLocked: false,
+  },
+  {
+  title: "Startup Legal Essentials",
+  description:
+    "Access legal templates and consultation for incorporation and compliance.",
+  category: "Legal",
+  partnerName: "LegalEase",
+  eligibilityText: "Newly registered startups only.",
+  isLocked: false,
+  },
+  {
+  title: "AI Resume Booster",
+  description:
+    "Optimize resumes using AI-powered suggestions and smart formatting.",
+  category: "HR Tech",
+  partnerName: "ResumeAI",
+  eligibilityText: "Open to job seekers and early-stage startups.",
+  isLocked: false,
+}
 ];
 
 const seedDeals = async () => {
